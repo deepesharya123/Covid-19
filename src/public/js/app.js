@@ -6,8 +6,8 @@ formOfCountry.addEventListener('submit',(e)=>{
 
         const Country = country.value
         
-    window.location.href = 'http://localhost:3000/showCountry?country='+Country;
-    // fetch('http://localhost:3000/showCountry?country='+Country)
+    window.location.href = 'https://indiafightscovid-19.herokuapp.com/showCountry?country='+Country;
+    // fetch('/showCountry?country='+Country)
     // .then((response)=>{
 
     //     response.json().then(()=>{
