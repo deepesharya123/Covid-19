@@ -66,8 +66,8 @@ router.get('/showCountry',async (req,res)=>{
     const active =  info[i].active
     const Totaltest =  info[i].tests
 
-    console.log(country)
-    if(erm===1){
+    // console.log(country)
+    // if(erm===1){
 
         // console.log({       country,
         //     TotalCases,
@@ -91,10 +91,10 @@ router.get('/showCountry',async (req,res)=>{
         Totaltest
     })
 
-    }
-    else{
-        res.render('error',{country})
-    }
+    // }
+    // else{
+    //     res.render('error',{country})
+    // }
 
 })
 
