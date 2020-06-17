@@ -18,4 +18,4 @@ hbs.registerPartials(partialsDir)
 app.use(express.static(publicDir))
 app.use(coronaRoutes)
 
-app.listen(port,()=> console.log("server is on port "+port))
+app.listen(port,"0.0.0.0")
