@@ -6,7 +6,6 @@ api.settings({
 })
 
 // this prints a summary of global data
-
 const data  = async ()=>{ 
     return await api.all().then()
 }
