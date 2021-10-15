@@ -20,5 +20,4 @@ module.exports = {
     data,
     AllCountryData
 }
- 
 //end
