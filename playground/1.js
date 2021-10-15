@@ -1,7 +1,7 @@
 const nobelcovid = require('novelcovid')
 const api = require('novelcovid');
  
-// you can choose which URL to use, this will not change the behaviour of the API
+// you can choose which URL to use, this will not change the behaviour of the API!!
 api.settings({
     baseUrl: 'https://disease.sh' | 'https://api.caw.sh' | 'https://corona.lmao.ninja'
 })
