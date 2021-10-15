@@ -10,7 +10,6 @@ const data  = async ()=>{
 }
 const AllCountryData = async (c)=>{
     const Country = c;
-
     return await api.gov(Country).then()!!!
 
     return await api.countries({country:Country }).then() 
