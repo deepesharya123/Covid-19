@@ -17,7 +17,6 @@ const AllCountryData = async (c)=>{
     return await api.countries({country:Country }).then() 
     // return await api.countries({country:Country}).then((data)=> data) 
 }
-
 module.exports = {
     data,
     AllCountryData
