@@ -5,7 +5,6 @@ const api = require('novelcovid');
 api.settings({
     baseUrl: 'https://disease.sh' | 'https://api.caw.sh' | 'https://corona.lmao.ninja'
 })
-
 // this prints a summary of global data
 const data  = async ()=>{ 
     return await api.all().then()
