@@ -10,7 +10,6 @@ api.settings({
 const data  = async ()=>{ 
     return await api.all().then()
 }
-
 const AllCountryData = async (c)=>{
     const Country = c;
 
